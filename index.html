@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+
+</head>
+<body>
+<section class="main-container">
+  <article class="card">
+    <img class="star-icon" src="images/icon-star.svg" alt="">
+    <h2 class="title">How did we do?</h2>
+    <p class="info">Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!
+    </p>
+    <div class="rating-box">
+     <button class="btn">1</button>
+     <button class="btn">2</button>
+     <button class="btn">3</button>
+     <button class="btn">4</button>
+     <button class="btn">5</button>
+    </div>
+
+    <button id="submit" class="submit-btn">Submit</button>
+  </article>
+
+  <article class="thank-card hidden">
+    <img src="images/illustration-thank-you.svg" alt="">
+    <div class="rate-text">
+      <p> You selected <span id="rating"></span> out of 5</p>
+    </div>
+    
+
+   <h2>Thank you!</h2>
+   <p class="thank-text"> We appreciate you taking the time to give a rating. If you ever need more support, 
+    don’t hesitate to get in touch!
+   </p>
+   <button id="go-back" class="submit-btn">Go Back</button>
+  </article>
+</section>  
+<script src="index.js"></script>
+</body>
+</html>
